@@ -14,6 +14,8 @@ public class HolaMundoApp extends Application {
 		controller = new HolaMundoController();
 		
 		Scene scene = new Scene(controller.getView(), 320, 200);
+		//scene.getStylesheets().add("/css/holamundo.css/");
+		
 		
 		primaryStage.setTitle("HolaMundo con FXML");
 		primaryStage.setScene(scene);

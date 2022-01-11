@@ -60,4 +60,8 @@ public class HolaMundoController implements Initializable {
 		saludo.set("¡Hola " + nombre.get() + "!");
 	}
 
+	@FXML
+	private void onDespedirAction(ActionEvent e) {
+		saludo.set("¡Adios " + nombre.get() + "!");
+	}
 }

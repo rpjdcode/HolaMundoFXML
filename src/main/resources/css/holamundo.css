@@ -1,0 +1,51 @@
+
+/* Esta clase de estilo se genera por defecto por el LOADER */
+.root {
+	-fx-font-family: monospace;
+	-fx-font-size: 8pt;
+	-fx-background-image: url(https://raw.githubusercontent.com/dam-dad/HolaMundoCSS/master/src/main/resources/images/earth.jpg);
+	-fx-background-size: cover;
+	
+}
+/* Estilo para la clase label */
+.label {
+	-fx-text-fill: brown;
+	-fx-font-size: 30pt;
+	-fx-effect: dropshadow(gaussian, red, 10, 0.2, 3, 3);
+}
+
+.text-field {
+	/*-fx-background-color: yellow, lightgray; */
+	-fx-text-fill: red;
+	-fx-background-color: yellow;
+	-fx-background-radius: 10%;
+	/*-fx-background-insets: 0px, 1px; */
+	-fx-background-insets: 0px;
+}
+
+.button {
+	-fx-text-fill: blue;
+	-fx-font-size: 16pt;
+}
+
+#view #saludarButton {
+	
+}
+
+.pane {
+	
+}
+
+#despedirButton {
+	-fx-text-fill: purple;
+	-fx-background-color: black;
+}
+
+#saludoLabel {
+	-fx-text-fill: linear-gradient(from 0% 0% to 0% 100%, blue 0, white 100);
+	-fx-font-size: 40pt;
+}
+
+.button:hover {
+	-fx-effect: dropshadow(gaussian, yellow, 25, 0.2, 0, 7);
+}
